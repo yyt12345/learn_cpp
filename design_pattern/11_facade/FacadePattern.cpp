@@ -48,6 +48,7 @@ public:
         cpu->run();
         hardDisk->read();
         os->load();
+        cout << "开机完成！" << endl;
     }
 private:
     Memory* memory;
